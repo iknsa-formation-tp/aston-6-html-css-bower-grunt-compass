@@ -1,0 +1,82 @@
+$font-family: Helvetica;
+$text-color: grey;
+$text-size: 12px;
+$bg-color: #222;
+
+.clearFix {
+    clear: both;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.center-text {
+    text-align: center;
+}
+
+body {
+    width : 100%;
+    margin: 0 auto;
+    font-size: $text-size;
+    font-family: $font-family;
+    color: $text-color;
+}
+
+p {
+    color: $text-color;
+    margin-left: 0px;
+}
+    
+
+a {
+    color: white;
+    font-size: $text-size;
+}
+
+ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+li {
+    color: $text-color;
+    font-size: $text-size;
+}
+
+footer {
+    width: 100%;
+    font-size: $text-size;
+}
+
+.footer-top-bg {
+    min-height: 400px;
+    background-color: $bg-color;
+}
+
+.single-footer-top-container {
+    margin: 0 auto;
+}
+
+.single-footer-top {
+    text-align: justify;
+    width: 10%;
+    padding: 10px;
+}
+
+.footer-bottom {
+    display: block;
+    height: 200px;
+    text-align: center;
+}
+
+.title {
+    font-size: 18px;
+    color: white;
+    float:right;
+
+}
